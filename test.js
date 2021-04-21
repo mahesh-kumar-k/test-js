@@ -1,4 +1,4 @@
-export function sayHello1(user){
+export default function sayHello1(user){
 	return ('Hello ' + user);
 }
 
