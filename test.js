@@ -1,5 +1,9 @@
-let test = function() {
-  return "Hello from function";
+export default class SomeService {
+  myMethodOne() {
+    return "From method 1";
+  }
+  
+  myMethodTwo() {
+    return "From method 2";
+  }
 }
-
-export default test;
