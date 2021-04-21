@@ -1,5 +1,5 @@
-export default class customClass {
-  sayHello: function(user){
-    return "Hello " + user+ "!";
-   }
+let test = function() {
+  return "Hello from function";
 }
+
+export default test;
