@@ -8,4 +8,4 @@ class SomeService {
   }
 }
 
-module.exports = SomeService
+module.exports = SomeService;
