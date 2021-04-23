@@ -1,4 +1,4 @@
-export default class SomeService {
+class SomeService {
   myMethodOne() {
     return "From method 1";
   }
@@ -7,3 +7,5 @@ export default class SomeService {
     return "From method 2";
   }
 }
+
+module.exports = SomeService
